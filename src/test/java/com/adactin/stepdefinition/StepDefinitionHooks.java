@@ -15,7 +15,7 @@ public class StepDefinitionHooks {
       System.out.println("before hooks");
 		System.out.println("Scenario name is" +scen.getName());	
 		 if (scen.getName().contentEquals(scen.getName())) {
-			 Baseclass.Screenshot("C:\\Users\\Lenovo\\eclipse-workspace\\SeleniumConcept\\Screenshot\\s.png");
+			Baseclass.Screenshot("C:\\Users\\Lenovo\\eclipse-workspace\\SeleniumConcept\\Screenshot\\s.png");
 			 
 		}
 		

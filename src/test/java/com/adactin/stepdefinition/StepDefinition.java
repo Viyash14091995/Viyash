@@ -2,6 +2,7 @@ package com.adactin.stepdefinition;
 
 import java.io.IOException;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -212,6 +213,7 @@ public class StepDefinition extends Baseclass {
 
 	@Then("^User Navigates to Exitpage\\.$")
 	public void user_Navigates_to_Exitpage() {
+		Assert.assertEquals(""," ");
 		System.out.println("Navigates to exit page");
 	}
 
