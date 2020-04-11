@@ -146,8 +146,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.992\n  (Session info: chrome\u003d80.0.3987.163)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-9POL9LP6\u0027, ip: \u0027192.168.43.91\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a45fcc243745b3719cde40a4648d16da\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat com.adactincucumber.baseclass.Baseclass.Screenshot(Baseclass.java:236)\r\n\tat com.adactin.stepdefinition.StepDefinitionHooks.beforeHooks(StepDefinitionHooks.java:18)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "User to launch the application",
@@ -157,7 +156,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_to_launch_the_application()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User to login the application",
@@ -167,7 +166,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_to_login_the_application()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "User Checking the Functionality of Login page",
@@ -182,7 +181,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_has_to_login()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User Enter Username \"Viyashgandhi\" in the usernamefield",
@@ -192,7 +191,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_Enter_Username_in_the_usernamefield(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User Enter password \"1234567\"  in the passwordfield",
@@ -202,7 +201,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_Enter_password_in_the_passwordfield(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User Click On login Button",
@@ -212,7 +211,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_Click_On_login_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User Navigates to Homepage",
@@ -222,7 +221,7 @@ formatter.match({
   "location": "com.adactin.stepdefinition.StepDefinition.user_Navigates_to_Homepage()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
