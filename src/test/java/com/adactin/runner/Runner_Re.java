@@ -23,7 +23,7 @@ import io.cucumber.junit.Cucumber;
 		         monochrome = true, dryRun = false, strict = true)
 
 
-public class Re_Runner {
+public class Runner_Re {
 	public static WebDriver driver;
 
 	@BeforeClass
